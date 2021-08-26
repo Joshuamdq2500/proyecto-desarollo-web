@@ -1,0 +1,283 @@
+.Bodyindex {
+  background: #212020;
+  background: radial-gradient(circle, #262424 50%, rgba(226, 86, 10, 0.857) 100%);
+}
+
+.header-nav {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://images3.alphacoders.com/902/902893.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-dark {
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+}
+
+.navg a {
+  color: #ce7515 !important;
+  font-size: 23px;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 8px 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+.navg a:hover {
+  background-color: rgba(255, 68, 0, 0.645);
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .titulo-seccion {
+  color: white;
+  -webkit-transform: translate(100px, 0px);
+          transform: translate(100px, 0px);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+footer .redes__sociales a {
+  color: black;
+  -webkit-transform: translate(0px, -80px);
+          transform: translate(0px, -80px);
+  padding: 10px 15px;
+}
+
+.header-nav-2 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://horrorfilmandculture.files.wordpress.com/2019/02/pics-of-michael-myers-halloween-10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.imagen__1 {
+  -webkit-transform: translate(800px, -1200px);
+          transform: translate(800px, -1200px);
+}
+
+.texto__1 {
+  color: #f8f8f8;
+  width: 600px;
+  margin: 40px;
+  padding: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  background-image: url(https://notiboom.com/wp-content/uploads/2020/05/halloween-gallery-01-2-1000x580.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 10px;
+}
+
+.texto__1:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(114, 113, 113, 0.768);
+  opacity: 0.1;
+}
+
+.texto__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  width: 600px;
+  margin: 40px;
+  padding: 10px;
+  -webkit-transform: translate(1200px, -100px);
+          transform: translate(1200px, -100px);
+  font-family: 'Shadows Into Light', cursive;
+  background-image: url(https://lanoticia-newspack.newspackstaging.com/wp-content/uploads/2020/10/michael-myers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 10px;
+}
+
+.texto__2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(204, 192, 192, 0.618);
+  opacity: 0.1;
+}
+
+.imagen__historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate(1500px);
+          transform: translate(1500px);
+}
+
+.header-nav-3 {
+  width: 80%;
+  min-height: 100vh;
+  background-image: url(https://www.kolpaper.com/wp-content/uploads/2021/03/Michael-Myers-Wallpapers-iPhone.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.texton_N {
+  color: white;
+  text-align: center;
+  -webkit-transform: translate(700px, 200px);
+          transform: translate(700px, 200px);
+  width: 500px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.header-nav-4 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/913fd4e2-4130-442c-aa70-d386ca1f4ed9/dailehb-1ed96027-cda1-4886-ab00-6f56c083ab67.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxM2ZkNGUyLTQxMzAtNDQyYy1hYTcwLWQzODZjYTFmNGVkOVwvZGFpbGVoYi0xZWQ5NjAyNy1jZGExLTQ4ODYtYWIwMC02ZjU2YzA4M2FiNjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6KwmnWbsW8P22rFlAZphUum-QaNX1FbmohV6dW_2t3w);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bodyPersonajes {
+  background: radial-gradient(circle, #262424 50%, rgba(226, 86, 10, 0.857) 100%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.contensionUno {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "headerPersonajes headerPersonajes headerPersonajes" "navPersonajes navPersonajes navPersonajes" "personajeUno textitoUno (.)" "personajeDos textitoDos (.)"  "personajeTres textitoTres (.)" "footer footer footer";
+  -ms-grid-columns: repeat 2, 1fr;
+      grid-template-columns: repeat 2, 1fr;
+  gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .contensionUno {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "header header "  "nav nav " "personajeUno textitoUno" "personajeDos textitoDos" "personajeTres textitoTres" "footerPersonajes footerPersonajes";
+    -ms-grid-columns: repeat 2, 1fr;
+        grid-template-columns: repeat 2, 1fr;
+    gap: 15px;
+  }
+}
+
+.personajeUno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate(600px, 200px);
+          transform: translate(600px, 200px);
+}
+
+.textitoUno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-transform: translate(1100px, -100px);
+          transform: translate(1100px, -100px);
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.personajeDos {
+  -webkit-transform: translate(800px);
+          transform: translate(800px);
+}
+
+.textitoDos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-transform: translate(1100px, -300px);
+          transform: translate(1100px, -300px);
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.personajeTres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  -webkit-transform: translate(800px, -700px);
+          transform: translate(800px, -700px);
+}
+
+.textitoTres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  -webkit-transform: translate(200px, -900px);
+          transform: translate(200px, -900px);
+}
+
+.bodyPersonajes {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer__personajes {
+  -webkit-transform: translate(0px, -900px);
+          transform: translate(0px, -900px);
+}
+
+.header-nav-5 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://img-eshop.cdn.nintendo.net/i/ef7cd308a9d0bf1b3e543b53ff487db64f9052c0678a3dd25275f8e31313a774.jpg?w=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.body__dbd {
+  background: radial-gradient(circle, #262424 50%, rgba(226, 86, 10, 0.857) 100%);
+}
+
+iframe {
+  -webkit-transform: translate(550px, 200px);
+          transform: translate(550px, 200px);
+}
+
+.textoDbd {
+  color: white;
+  width: 600px;
+  height: 500px;
+  -webkit-transform: translate(600px, 200px);
+          transform: translate(600px, 200px);
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.footer__dbd {
+  -webkit-transform: translate(-500px, 900px);
+          transform: translate(-500px, 900px);
+}
+
+.footer__dbd .redes__sociales-dbd a {
+  color: orangered;
+  padding: 15px 10px;
+}
+/*# sourceMappingURL=estilo.css.map */
