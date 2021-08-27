@@ -10,6 +10,7 @@ background: radial-gradient(circle, rgb(38, 36, 36) 50%, rgba(226, 86, 10, 0.857
 }
 
 
+
 .header-nav {
     width: 100%;
     min-height: 100vh;
@@ -38,39 +39,19 @@ background: radial-gradient(circle, rgb(38, 36, 36) 50%, rgba(226, 86, 10, 0.857
         }
     }
 
-    
-
-.carusel {
-    
-    display: grid;
-    grid-template-areas: 
-                            "header header header" 
-                            "nav nav nav"
-                            "carousel slide carousel-fade carousel slide carousel-fade carousel slide carousel-fade" 
-                            "carousel slide carousel-fade carousel slide carousel-fade carousel slide carousel-fade"
-                            "footer footer footer";
-                            gap: 15px;
-                            width: 300px;
-                            height: 250px;
-                            transform: translate(700px, 100px);}
-                            .imagen__carusel {
-                                width: 400px;
-                            height: 400px;}
-                            
-                            
 footer{
-display: flex;
-justify-content:flex-end;
-transform: translate(-700px,600px);
+    display: flex;
+    justify-content: flex-end;
         .titulo-seccion{
             color: white;
-            transform: translate(-100px,-20px);
+            transform: translate(100px,0px);
             font-family: 'Titillium Web', sans-serif;
         }
         .redes__sociales a{
-            color: $naranjaF;
-            transform: translate(-100px,-100px);
+            color: black;
+            transform: translate(0px,-80px);
             padding: 10px 15px;
+            
 
             
             
@@ -127,7 +108,7 @@ transform: translate(-700px,600px);
     width: 600px;
     margin: 40px;
     padding: 10px;
-    transform: translate(1200px ,-100px);
+    transform: translate(400px);
     font-family: 'Shadows Into Light', cursive;;
     background-image: url(https://lanoticia-newspack.newspackstaging.com/wp-content/uploads/2020/10/michael-myers.jpg);
     background-repeat: no-repeat;

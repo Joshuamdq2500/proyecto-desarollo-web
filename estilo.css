@@ -31,22 +31,6 @@
   background-color: rgba(255, 68, 0, 0.645);
 }
 
-.carusel {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "header header header"  "nav nav nav" "carousel slide carousel-fade carousel slide carousel-fade carousel slide carousel-fade"  "carousel slide carousel-fade carousel slide carousel-fade carousel slide carousel-fade" "footer footer footer";
-  gap: 15px;
-  width: 300px;
-  height: 250px;
-  -webkit-transform: translate(700px, 100px);
-          transform: translate(700px, 100px);
-}
-
-.imagen__carusel {
-  width: 400px;
-  height: 400px;
-}
-
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,21 +38,19 @@ footer {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-transform: translate(-700px, 600px);
-          transform: translate(-700px, 600px);
 }
 
 footer .titulo-seccion {
   color: white;
-  -webkit-transform: translate(-100px, -20px);
-          transform: translate(-100px, -20px);
+  -webkit-transform: translate(100px, 0px);
+          transform: translate(100px, 0px);
   font-family: 'Titillium Web', sans-serif;
 }
 
 footer .redes__sociales a {
-  color: orangered;
-  -webkit-transform: translate(-100px, -100px);
-          transform: translate(-100px, -100px);
+  color: black;
+  -webkit-transform: translate(0px, -80px);
+          transform: translate(0px, -80px);
   padding: 10px 15px;
 }
 
@@ -116,8 +98,8 @@ footer .redes__sociales a {
   width: 600px;
   margin: 40px;
   padding: 10px;
-  -webkit-transform: translate(1200px, -100px);
-          transform: translate(1200px, -100px);
+  -webkit-transform: translate(400px);
+          transform: translate(400px);
   font-family: 'Shadows Into Light', cursive;
   background-image: url(https://lanoticia-newspack.newspackstaging.com/wp-content/uploads/2020/10/michael-myers.jpg);
   background-repeat: no-repeat;
