@@ -3,6 +3,9 @@
 //variables//
 $naranja:orange;
 $naranjaF:orangered;
+html {
+    height: 100%;
+}
 
 .Bodyindex {
 background: rgb(33,32,32);
@@ -40,15 +43,15 @@ background: radial-gradient(circle, rgb(38, 36, 36) 50%, rgba(226, 86, 10, 0.857
     }
 
 footer{
-    display: flex;
-    justify-content: flex-end;
+    
+    
         .titulo-seccion{
             color: white;
             transform: translate(100px,0px);
             font-family: 'Titillium Web', sans-serif;
         }
         .redes__sociales a{
-            color: black;
+            color: rgb(238, 226, 226);
             transform: translate(0px,-80px);
             padding: 10px 15px;
             
@@ -149,9 +152,11 @@ transform: translate(1500px);
 .texton_N{
     color: white;
     text-align: center;
-    transform: translate(700px,200px);
+    transform: translate(20px,50px);
     width: 500px;
+    height: 500px;
     font-family: 'Shadows Into Light', cursive;;
+    justify-content: center;
 
 }
 
@@ -166,91 +171,50 @@ transform: translate(1500px);
     background-attachment: fixed;
 }
 .bodyPersonajes{
-    background: radial-gradient(circle, rgb(38, 36, 36) 50%, rgba(226, 86, 10, 0.857) 100%);
-    box-sizing: border-box;
-    width: 100%;
+background: radial-gradient(circle, rgb(38, 36, 36) 50%, rgba(226, 86, 10, 0.857) 100%);
+font-size: 16px;
+}
+.footer__personajes {
+    transform: translate(0px,600px);
 }
 
-.contensionUno { 
-    display: grid;
-        grid-template-areas: 
-                            "headerPersonajes headerPersonajes headerPersonajes"
-                            "navPersonajes navPersonajes navPersonajes"
-                            "personajeUno textitoUno (.)"
-                            "personajeDos textitoDos (.)" 
-                            "personajeTres textitoTres (.)"
-                            "footer footer footer";
-                            grid-template-columns:repeat (2,1fr);
-                            gap: 15px;
-    
-}
-@media screen and (max-width:768px){
-.contensionUno {
-    display: grid;
-    grid-template-areas: 
-                            "header header " 
-                            "nav nav "
-                            "personajeUno textitoUno"
-                            "personajeDos textitoDos"
-                            "personajeTres textitoTres"
-                            "footerPersonajes footerPersonajes";
-                            grid-template-columns:repeat (2,1fr);
-                            gap: 15px;
-}
-}
-
-
-.personajeUno {
-display: flex;
-transform: translate(600px,200px);
-}
-    
 
 .textitoUno {
-    display: flex;
-    width: 600px;
-    transform: translate(1100px,-100px);
-    color: white;
-    font-family: 'Shadows Into Light', cursive;;
-}
-.personajeDos {
-    transform: translate(800px);
-
-}
-.textitoDos {
-    display: flex;
-    width: 600px;
-    transform: translate(1100px,-300px);
-    color: white;
-    font-family: 'Shadows Into Light', cursive;;
-
     
-
-
+    width: 600px;
+    transform: translate(500px,100px);
+    color: white;
+    font-family: 'Shadows Into Light', cursive;;
+    font-size: 1em;
 }
-.personajeTres{
-    display: flex;
-    height: 300px;
-    transform: translate(800px,-700px);
+
+.textitoDos {
+    
+    transform: translate(-420px,800px);
+    color: white;
+    font-family: 'Shadows Into Light', cursive;;
+    height: 1000px;
+    font-size: 1em;
+    
 }
+
 .textitoTres {
-    display: flex;
+    
     width: 600px;
     color: white;
     font-family: 'Shadows Into Light', cursive;;
-    transform: translate(200px,-900px);
+    box-sizing: border-box;
+    transform: translate(500px,550px);
+    font-size: 1em;
+}
+@media (max-width: 320px) {
+.textos { font-size: 2em; }
 }
 
         .bodyPersonajes {
             max-width: 100%;
             max-height: 100%;
         }
-.footer__personajes{
-transform: translate(0px,-900px);
-}
-//michaelenDbd//
-
-
 .header-nav-5{
     width: 100%;
     min-height: 100vh;
@@ -264,20 +228,16 @@ transform: translate(0px,-900px);
 }
 
 iframe {
-    transform: translate(550px,200px);
+    position: absolute;
+    
 }
 .textoDbd{
     color: white;
     width: 600px;
     height: 500px;
-    transform: translate(600px,200px);
     font-family: 'Shadows Into Light', cursive;;
 
 }
-.footer__dbd{
-    transform: translate(-500px,900px);
-    .redes__sociales-dbd a{
-        color: $naranjaF;
-        padding: 15px 10px;
-    }
+.footer__michaeldbd {
+    transform: translate(0px,1850px);
 }

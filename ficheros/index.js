@@ -38,4 +38,3 @@ window.sr = ScrollReveal();
 sr.reveal(".texton_N", {
     duration: 3000
 });
-k
