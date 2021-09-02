@@ -69,18 +69,10 @@ footer{
 
 
 //Historia.html//
-.header-nav-2
-{
-    width: 100%;
-    min-height: 100vh;  
-    background-image: url(https://horrorfilmandculture.files.wordpress.com/2019/02/pics-of-michael-myers-halloween-10.jpg);      
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    
+
 
     
-} 
+
 .imagen__1{
     transform:translate(800px,-1200px) ;
 }
@@ -90,9 +82,6 @@ footer{
     margin: 40px;
     padding: 10px;
     font-family: 'Shadows Into Light', cursive;;
-    background-image: url(https://notiboom.com/wp-content/uploads/2020/05/halloween-gallery-01-2-1000x580.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     text-shadow: 10px;
     &:before{
@@ -113,9 +102,6 @@ footer{
     padding: 10px;
     transform: translate(400px);
     font-family: 'Shadows Into Light', cursive;;
-    background-image: url(https://lanoticia-newspack.newspackstaging.com/wp-content/uploads/2020/10/michael-myers.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     text-shadow: 10px;
         &:before{
@@ -135,18 +121,12 @@ transform: translate(1500px);
 
 
 //sobremichael.html//
-.header-nav-3   
-    {
-        width: 80%;
-        min-height: 100vh;  
-        background-image: url(https://www.kolpaper.com/wp-content/uploads/2021/03/Michael-Myers-Wallpapers-iPhone.jpg);    
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        
+.img-fluid {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
 
-    
-} 
+}
 
 
 .texton_N{
@@ -160,82 +140,66 @@ transform: translate(1500px);
 
 }
 
-//personajes.html//
+//rodaje.html//
 
-.header-nav-4 {
-        width: 100%;
-    min-height: 100vh;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/913fd4e2-4130-442c-aa70-d386ca1f4ed9/dailehb-1ed96027-cda1-4886-ab00-6f56c083ab67.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxM2ZkNGUyLTQxMzAtNDQyYy1hYTcwLWQzODZjYTFmNGVkOVwvZGFpbGVoYi0xZWQ5NjAyNy1jZGExLTQ4ODYtYWIwMC02ZjU2YzA4M2FiNjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6KwmnWbsW8P22rFlAZphUum-QaNX1FbmohV6dW_2t3w);
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-attachment: fixed;
-}
+
 .bodyPersonajes{
 background: radial-gradient(circle, rgb(38, 36, 36) 50%, rgba(226, 86, 10, 0.857) 100%);
 font-size: 16px;
+box-sizing: border-box;
+margin: 0;
 }
+
+.grid-item {
+display: flex;
+align-items: center;
+justify-content: center;
+
+background-color: #03afff;
+border-radius: 4px;
+transition: transform 0.3s ease-in-out;
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+filter: opacity(0.9);
+transform: scale(1.04);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+
+.wide {
+    grid-column: span 2;
+}
+.tall {
+    grid-row: span 2;
+}
+
+
 .footer__personajes {
     transform: translate(0px,600px);
 }
 
 
-.textitoUno {
-    
-    width: 600px;
-    transform: translate(500px,100px);
-    color: white;
-    font-family: 'Shadows Into Light', cursive;;
-    font-size: 1em;
-}
-
-.textitoDos {
-    
-    transform: translate(-420px,800px);
-    color: white;
-    font-family: 'Shadows Into Light', cursive;;
-    height: 1000px;
-    font-size: 1em;
-    
-}
-
-.textitoTres {
-    
-    width: 600px;
-    color: white;
-    font-family: 'Shadows Into Light', cursive;;
-    box-sizing: border-box;
-    transform: translate(500px,550px);
-    font-size: 1em;
-}
-@media (max-width: 320px) {
-.textos { font-size: 2em; }
-}
-
-        .bodyPersonajes {
-            max-width: 100%;
-            max-height: 100%;
-        }
-.header-nav-5{
-    width: 100%;
-    min-height: 100vh;
-    background-image:url(https://img-eshop.cdn.nintendo.net/i/ef7cd308a9d0bf1b3e543b53ff487db64f9052c0678a3dd25275f8e31313a774.jpg?w=1000) ;
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-attachment: fixed;
-}
 .body__dbd {
     background:radial-gradient(circle, rgb(38, 36, 36) 50%, rgba(226, 86, 10, 0.857) 100%); ;
 }
 
-iframe {
-    position: absolute;
-    
-}
 .textoDbd{
     color: white;
     width: 600px;
     height: 500px;
     font-family: 'Shadows Into Light', cursive;;
+    text-align: center;
 
 }
 .footer__michaeldbd {
