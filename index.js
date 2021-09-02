@@ -38,3 +38,7 @@ window.sr = ScrollReveal();
 sr.reveal(".texton_N", {
     duration: 3000
 });
+window.sr = ScrollReveal();
+sr.reveal(".grid-item", {
+    duration: 3000
+});
