@@ -1,44 +1,45 @@
 window.sr = ScrollReveal();
-sr.reveal (".navbar",{
-duration: 3000
-
-});
-window.sr = ScrollReveal();
-sr.reveal(".texto__1", {
+sr.reveal(".navbar", {
     duration: 3000
 
 });
 window.sr = ScrollReveal();
-sr.reveal(".texto__2", {
+sr.reveal(".textos--historia", {
     duration: 3000
 
 });
+window.sr = ScrollReveal();
+sr.reveal(".list-group", {
+    duration: 3000
 
+});
 window.sr = ScrollReveal();
-sr.reveal(".texton_N", {
+sr.reveal("footer", {
     duration: 3000
+
 });
 window.sr = ScrollReveal();
-sr.reveal(".textitoUno", {
-    duration: 2000
-});
-window.sr = ScrollReveal();
-sr.reveal(".textitoDos", {
-    duration: 2000
-});
-window.sr = ScrollReveal();
-sr.reveal(".textitoTres", {
-    duration: 2000
-});
-window.sr = ScrollReveal();
-sr.reveal(".texton_N", {
+sr.reveal(".card-text", {
     duration: 3000
+
 });
 window.sr = ScrollReveal();
-sr.reveal(".texton_N", {
+sr.reveal(".slide", {
     duration: 3000
+
 });
 window.sr = ScrollReveal();
-sr.reveal(".grid-item", {
+sr.reveal("video", {
     duration: 3000
+
+});
+window.sr = ScrollReveal();
+sr.reveal(".grid-container", {
+    duration: 3000
+
+});
+window.sr = ScrollReveal();
+sr.reveal(".card-transparent img", {
+    duration: 3000
+
 });
